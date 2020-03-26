@@ -13,8 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/admin', function () {
+    return view('backend.welcome');
+});
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('frontend.pages.home');
 });
 
 Auth::routes();
