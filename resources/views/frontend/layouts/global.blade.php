@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="{{ asset('create/css/aos.css') }}">
 
     <link rel="stylesheet" href="{{ asset('create/css/style.css') }}">
+
     
   </head>
 
@@ -82,17 +83,17 @@
   <script src="{{ asset('create/js/jquery.sticky.js') }}"></script>
 
   <script src="{{ asset('create/js/typed.js') }}"></script>
-            <script>
-              var typed = new Typed('.typed-words', {
-              strings: ["Web Apps"," WordPress"," Mobile Apps"],
-              typeSpeed: 80,
-              backSpeed: 80,
-              backDelay: 4000,
-              startDelay: 1000,
-              loop: true,
-              showCursor: true
-              });
-            </script>
+  <script>
+    var typed = new Typed('.typed-words', {
+    strings: ["Web Apps"," WordPress"," Mobile Apps"],
+    typeSpeed: 80,
+    backSpeed: 80,
+    backDelay: 4000,
+    startDelay: 1000,
+    loop: true,
+    showCursor: true
+    });
+  </script>
 
   <script src="{{ asset('create/js/main.js') }}"></script>
   

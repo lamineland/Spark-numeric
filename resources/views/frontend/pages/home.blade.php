@@ -4,7 +4,7 @@
 
 @section('content')
     
-<div class="site-blocks-cover overlay" style="background-image: url({{ asset('create/images/hero_1.jpg') }});" data-aos="fade" data-stellar-background-ratio="0.5">
+  <div class="site-blocks-cover overlay" style="background-image: url({{ asset('create/images/hero_1.jpg') }});" data-aos="fade" data-stellar-background-ratio="0.5">
     <div class="container">
       <div class="row align-items-center justify-content-center text-center">
 
@@ -13,7 +13,7 @@
           <div class="row justify-content-center mb-4">
             <div class="col-md-8 text-center">
               <h1>We Love To Build <span class="typed-words"></span></h1>
-              <p class="lead mb-5">Au coeur de la <a href="#" target="_blank">donnée</a></p>
+              <p class="lead mb-5">La <a href="#" target="_blank">donnée</a> au coeur du numérique </p>
               <div><a data-fancybox data-ratio="2" href="https://vimeo.com/317571768" class="btn btn-primary btn-md">Watch Video</a></div>
             </div>
           </div>
@@ -23,8 +23,6 @@
     </div>
   </div>  
 
-
-  
 
   <section class="site-section">
     <div class="container">
@@ -75,9 +73,11 @@
   <section class="site-section" id="work-section">
     <div class="container">
       <div class="row mb-5 justify-content-center">
-        <div class="col-md-8 text-center">
+        <div class="col-md-10 text-center">
           <h2 class="text-black h1 site-section-heading text-center">Nos réalisations</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, itaque neque, delectus odio iure explicabo.</p>
+          <p class="lead">Spark Numeric place l’Homme au centre de ses missions. Ce qui lui permet
+            d’assumer ses responsabilités et d’apporter sa contribution sociale afin répondre
+            adéquatement à la confiance de nos clients, employés, fournisseurs et partenaires.</p>
         </div>
       </div>
     </div>
@@ -111,7 +111,7 @@
           </a>
         </div>
 
-        <div class="col-md-6 col-lg-4">
+        {{-- <div class="col-md-6 col-lg-4">
           <a href="{{ asset('create/images/img_4.jpg') }}" class="media-1" data-fancybox="gallery">
             <img src="{{ asset('create/images/img_4.jpg') }}" alt="Image" class="img-fluid">
             <div class="media-1-content">
@@ -137,7 +137,7 @@
               <span class="category">Website</span>
             </div>
           </a>
-        </div>
+        </div> --}}
        
       </div>
     </div>
@@ -187,7 +187,7 @@
   </section>
 
   {{-- Testimonials --}}
-  <section class="site-section testimonial-wrap">
+  {{-- <section class="site-section testimonial-wrap">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-8 text-center">
@@ -253,7 +253,7 @@
         </div>
 
       </div>
-  </section>
+  </section> --}}
 
   {{-- Our services --}}
   <section class="site-section border-bottom" id="services-section">
@@ -268,7 +268,7 @@
           <div class="unit-4 d-flex">
             <div class="unit-4-icon mr-4"><span class="text-primary icon-laptop2"></span></div>
             <div>
-              <h3>Web Design</h3>
+              <h3>Administration &amp; Maintenance des Réseaux Téléinformatiques </h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
               <p><a href="#">Lire plus ...</a></p>
             </div>
@@ -278,7 +278,7 @@
           <div class="unit-4 d-flex">
             <div class="unit-4-icon mr-4"><span class="text-primary icon-shopping_cart"></span></div>
             <div>
-              <h3>eCommerce</h3>
+              <h3>Business Intelligence</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
               <p><a href="#">Lire plus ...</a></p>
             </div>
@@ -288,7 +288,7 @@
           <div class="unit-4 d-flex">
             <div class="unit-4-icon mr-4"><span class="text-primary icon-question_answer"></span></div>
             <div>
-              <h3>Web Applications</h3>
+              <h3>Data Science</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
               <p><a href="#">Lire plus ...</a></p>
             </div>
@@ -300,7 +300,7 @@
           <div class="unit-4 d-flex">
             <div class="unit-4-icon mr-4"><span class="text-primary icon-format_paint"></span></div>
             <div>
-              <h3>Branding</h3>
+              <h3>Data Architecture</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
               <p><a href="#">Lire plus ...</a></p>
             </div>
@@ -310,7 +310,7 @@
           <div class="unit-4 d-flex">
             <div class="unit-4-icon mr-4"><span class="text-primary icon-extension"></span></div>
             <div>
-              <h3>Copy Writing</h3>
+              <h3>Intelligence Artificielle</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
               <p><a href="#">Lire plus ...</a></p>
             </div>
@@ -320,12 +320,34 @@
           <div class="unit-4 d-flex">
             <div class="unit-4-icon mr-4"><span class="text-primary icon-phonelink"></span></div>
             <div>
-              <h3>Mobile Applications</h3>
+              <h3>Développement d’applications</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
               <p><a href="#">Lire plus ...</a></p>
             </div>
           </div>
         </div>
+        
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="500">
+          <div class="unit-4 d-flex">
+            <div class="unit-4-icon mr-4"><span class="text-primary icon-phonelink"></span></div>
+            <div>
+              <h3>Sondages &amp; Etudes de Marchés</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+              <p><a href="#">Lire plus ...</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="500">
+          <div class="unit-4 d-flex">
+            <div class="unit-4-icon mr-4"><span class="text-primary icon-phonelink"></span></div>
+            <div>
+              <h3>Formation</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+              <p><a href="#">Lire plus ...</a></p>
+            </div>
+          </div>
+        </div>
+        
 
       </div>
     </div>
@@ -339,7 +361,7 @@
         <div class="col-md-5 ml-auto mb-5 order-md-2" data-aos="fade">
           <img src="{{ asset('create/images/about_1.jpg') }}" alt="Image" class="img-fluid rounded">
         </div>
-        <div class="col-md-6 order-md-1" data-aos="fade">
+        <div class="col-md-7 order-md-1" data-aos="fade">
 
           <div class="row">
 
@@ -349,9 +371,19 @@
               </div>
             </div>
             <div class="col-12 mb-4">
-              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet incidunt magnam corrupti, odit eos harum quaerat nostrum voluptatibus aspernatur eligendi accusantium cum, impedit blanditiis voluptate commodi doloribus, nemo dignissimos recusandae.</p>
+              <p class="lead">Créé par des experts issus de grandes écoles et universités, Spark Numeric est
+                un cabinet de consultance et de prestation de services s’activant dans les
+                Nouvelles Technologies de l’Information et de la Communication à savoir la Data
+                Science (Machine Learning, Deep Learning, L’Intelligence Artificielle), la Data
+                Architecture (Big Data &amp; Cloud Computing), le Business Intelligence, le Génie
+                Logiciel et l’Administration des Réseaux Téléinformatiques. A cela s’ajoute son
+                intervention dans tous les domaines de l&#39;activité économique en appuyant les
+                entreprises dans le but d&#39;orienter leur vision vers les préférences clients; ceci en
+                se basant sur des résultats d&#39;enquêtes de satisfaction, de sondage d&#39;opinion et
+                d&#39;élaboration de documents scientifiques adossés sur une modélisation
+                économétrique adéquate.</p>
             </div>
-            <div class="col-md-12 mb-md-5 mb-0 col-lg-6">
+            {{-- <div class="col-md-12 mb-md-5 mb-0 col-lg-6">
               <div class="unit-4">
                 <div class="unit-4-icon mr-4 mb-3"><span class="text-secondary icon-phonelink"></span></div>
                 <div>
@@ -370,7 +402,7 @@
                   <p class="mb-0"><a href="#">Lire plus ...</a></p>
                 </div>
               </div>
-            </div>
+            </div> --}}
           </div>
         </div>
         
@@ -391,45 +423,55 @@
           <div class="person text-center">
             <img src="{{ asset('create/images/person_2.jpg') }}" alt="Image" class="img-fluid rounded-circle w-50 mb-5">
             <h3>John Rooster</h3>
-            <p class="position text-muted">Co-Founder, President</p>
-            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
-            <ul class="ul-social-circle">
-              <li><a href="#"><span class="icon-facebook"></span></a></li>
-              <li><a href="#"><span class="icon-twitter"></span></a></li>
-              <li><a href="#"><span class="icon-linkedin"></span></a></li>
-              <li><a href="#"><span class="icon-instagram"></span></a></li>
-            </ul>
+            <p class="position text-muted">Un Data scientist</p>
+            
           </div>
         </div>
         <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="200">
           <div class="person text-center">
             <img src="{{ asset('create/images/person_3.jpg') }}" alt="Image" class="img-fluid rounded-circle w-50 mb-5">
             <h3>Tom Sharp</h3>
-            <p class="position text-muted">Co-Founder, COO</p>
-            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
-            <ul class="ul-social-circle">
-              <li><a href="#"><span class="icon-facebook"></span></a></li>
-              <li><a href="#"><span class="icon-twitter"></span></a></li>
-              <li><a href="#"><span class="icon-linkedin"></span></a></li>
-              <li><a href="#"><span class="icon-instagram"></span></a></li>
-            </ul>
+            <p class="position text-muted">Un Data Architect</p>
+            
           </div>
         </div>
         <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="300">
           <div class="person text-center">
             <img src="{{ asset('create/images/person_4.jpg') }}" alt="Image" class="img-fluid rounded-circle w-50 mb-5">
             <h3>Winston Hodson</h3>
-            <p class="position text-muted">Marketing</p>
-            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
-            <ul class="ul-social-circle">
-              <li><a href="#"><span class="icon-facebook"></span></a></li>
-              <li><a href="#"><span class="icon-twitter"></span></a></li>
-              <li><a href="#"><span class="icon-linkedin"></span></a></li>
-              <li><a href="#"><span class="icon-instagram"></span></a></li>
-            </ul>
+            <p class="position text-muted">Un Ingénieur statisticien économiste</p>
+            
           </div>
         </div>
       </div>
+      
+      <div class="row">
+        <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="100">
+          <div class="person text-center">
+            <img src="{{ asset('create/images/person_2.jpg') }}" alt="Image" class="img-fluid rounded-circle w-50 mb-5">
+            <h3>John Rooster</h3>
+            <p class="position text-muted">Une responsable qualité</p>
+            
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="200">
+          <div class="person text-center">
+            <img src="{{ asset('create/images/person_3.jpg') }}" alt="Image" class="img-fluid rounded-circle w-50 mb-5">
+            <h3>Tom Sharp</h3>
+            <p class="position text-muted">3 développeurs d’applications</p>
+            
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="300">
+          <div class="person text-center">
+            <img src="{{ asset('create/images/person_4.jpg') }}" alt="Image" class="img-fluid rounded-circle w-50 mb-5">
+            <h3>Winston Hodson</h3>
+            <p class="position text-muted">Un technicien en réseaux</p>
+            
+          </div>
+        </div>
+      </div>
+      
     </div>
   </div>
 
